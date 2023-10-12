@@ -10,11 +10,14 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+<<<<<<< HEAD
   flex-shrink: 0;
 }
 
 .ul {
   list-style-type: none;
+=======
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
 }
 
 .content {
@@ -25,8 +28,11 @@
   background-color: #e2e8f0;
   padding-left: 5px;
   margin: 3px;
+<<<<<<< HEAD
   flex-shrink: 0;
   align-self: stretch;
+=======
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
 }
 
 .left {
@@ -36,8 +42,11 @@
   padding-left: 5px;
   background-color: #f1f5f9;
   width: 30%;
+<<<<<<< HEAD
   flex-shrink: 0;
   align-self: stretch;
+=======
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
 }
 
 .right {
@@ -49,8 +58,11 @@
   align-items: flex-start;
   justify-content: center;
   padding: 5px;
+<<<<<<< HEAD
   flex-shrink: 0;
   align-self: stretch;
+=======
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
 }
 
 .right-fir-con {

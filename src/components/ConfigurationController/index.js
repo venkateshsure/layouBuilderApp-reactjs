@@ -28,6 +28,7 @@ const ConfigurationController = () => {
                 <input
                   type="checkbox"
                   checked={showContent}
+<<<<<<< HEAD
                   onChange={onToggleShowContent}
                   id="content"
                 />
@@ -50,6 +51,27 @@ const ConfigurationController = () => {
                   id="right navbar"
                 />
                 <label htmlFor="right navbar">Right Navbar</label>
+=======
+                  onClick={onToggleShowContent}
+                />
+                <p>Content</p>
+              </div>
+              <div className="checkbox-con">
+                <input
+                  onClick={onToggleShowLeftNavbar}
+                  checked={showLeftNavbar}
+                  type="checkbox"
+                />
+                <p>Left Navbar</p>
+              </div>
+              <div className="checkbox-con">
+                <input
+                  onClick={onToggleShowRightNavbar}
+                  checked={showRightNavbar}
+                  type="checkbox"
+                />
+                <p>Right Navbar</p>
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
               </div>
             </div>
           </div>
@@ -60,3 +82,13 @@ const ConfigurationController = () => {
 }
 
 export default ConfigurationController
+<<<<<<< HEAD
+=======
+
+/* showContent: true,
+  showLeftNavbar: true,
+  showRightNavbar: true,
+  onToggleShowContent: () => {},
+  onToggleShowLeftNavbar: () => {},
+  onToggleShowRightNavbar: () => {}, */
+>>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
