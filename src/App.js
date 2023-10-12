@@ -9,11 +9,7 @@ import Layout from './components/Layout'
 import './App.css'
 
 class App extends Component {
-<<<<<<< HEAD
   state = {showContent: true, showLeftNavbar: true, showRightNavbar: true}
-=======
-  state = {showContent: true}
->>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
 
   onToggleShowContent = () =>
     this.setState(pre => ({showContent: !pre.showContent}))
@@ -50,13 +46,3 @@ class App extends Component {
 }
 
 export default App
-<<<<<<< HEAD
-=======
-
-/* showContent: true,
-  showLeftNavbar: true,
-  showRightNavbar: true,
-  onToggleShowContent: () => {},
-  onToggleShowLeftNavbar: () => {},
-  onToggleShowRightNavbar: () => {}, */
->>>>>>> 7a68e4db2604972dda8031b06225f08c5cfcafd3
