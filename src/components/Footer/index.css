@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.footer-con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbd5e1;
+  margin-left: 3px;
+  flex-shrink: 0;
+}
+
+h1 {
+  color: #64748b;
+}

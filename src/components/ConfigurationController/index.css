@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.config-con {
+  display: flex;
+  width: 100%;
+  background-color: #475569;
+}
+
+.h1 {
+  color: #ffffff;
+}
+
+.fir-config-con {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  align-items: flex-star;
+  color: #ffffff;
+}
+
+.checkbox-con {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
