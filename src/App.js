@@ -34,7 +34,6 @@ class App extends Component {
           onToggleShowContent: this.onToggleShowContent,
         }}
       >
-        return (
         <div>
           <ConfigurationController />
           <Layout />
